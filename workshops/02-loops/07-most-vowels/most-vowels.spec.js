@@ -15,7 +15,7 @@ describe('mostVowels', () => {
   });
 
   it('returns the word with the most vowels even if it\'s the last string in the sentence', () => {
-    let returnedValue = mostVowels('Give her hell from us, Peeves.');
+    let returnedValue = mostVowels('Give her hell from us, Peeves .');
     expect(returnedValue).toEqual('Peeves');
   });
 
