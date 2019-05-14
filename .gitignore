@@ -1,1 +1,8 @@
 .vscode/*launch.json
+workshops/02-loops/node_modules/*
+workshops/01-tidy-code/node_modules/*
+workshops/03-coercion-and-truthiness/node_modules/*
+
+workshops/01-tidy-code/package-lock.json
+workshops/02-loops/package-lock.json
+workshops/03-coercion-and-truthiness/package-lock.json
