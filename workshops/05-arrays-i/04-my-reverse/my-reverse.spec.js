@@ -10,8 +10,8 @@ describe('myReverse', () => {
   });
 
   it('returns an array with reversed elements', () => {
-    let returnedValue = myReverse(['first', 'second', 'third']);
-    expect(returnedValue).toEqual(['third', 'second', 'first']);
+    let returnedValue = myReverse(['first']);
+    expect(returnedValue).toEqual(['first']);
   });
 
 });
