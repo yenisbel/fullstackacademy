@@ -1,3 +1,5 @@
+workshops/05-arrays-i/node_modules/*
+workshops/05-arrays-i/package-lock.json
 workshops/01-tidy-code/node_modules/*
 workshops/01-tidy-code/package-lock.json
 workshops/02-loops/node_modules/*
