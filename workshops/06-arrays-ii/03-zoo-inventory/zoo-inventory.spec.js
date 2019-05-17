@@ -11,24 +11,24 @@ describe('zooInventory', () => {
 
   it('returns an array with the correct sentence, given one animal', () => {
     let zoo = [
-      ['Bai Yun', ['panda', 26]]
+      ['Bai Yun','the', ['panda','is', 26]]
     ];
 
     let returnedValue = zooInventory(zoo);
-    expect(returnedValue[0]).toEqual('Bai Yun the panda is 26.');
+    expect(returnedValue[0]).toEqual('Bai Yun the panda is 26');
   });
 
   it('returns the correct array of sentences, given multiple animals', () => {
     let zoo = [
-      ['Hobbes', ['tiger', 32]],
-      ['Simba', ['lion king', 23]]
+      ['Hobbes','the', ['tiger','is', 32]],
+      ['Simba','the', ['lion king','is', 23]]
     ];
 
     let returnedValue = zooInventory(zoo);
 
     let expectedValue = [
-      'Hobbes the tiger is 32.',
-      'Simba the lion king is 23.'
+      'Hobbes the tiger is 32',
+      'Simba the lion king is 23'
     ];
 
     expect(returnedValue).toEqual(expectedValue);
