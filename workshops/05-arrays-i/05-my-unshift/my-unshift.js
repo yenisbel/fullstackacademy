@@ -6,3 +6,10 @@ function myUnshift(arrayValues, addValue) {
     }
     return resultArry;
 }
+
+/* 
+function myUnshift(arrayValues, addValue){   
+    return resultArry[addValue, ...arrayValues.slice()];
+}
+
+*/
