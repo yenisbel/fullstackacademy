@@ -38,3 +38,17 @@ let animalNoises = [
 ];
 
 // YOUR CODE BELOW
+
+function petSounds(animalName, countryName) {
+  for (let i = 0; i < animalNoises.length; i++) {
+    //iterate trough all array Animal Noises to find Information Obj match with animalName input
+    // let objAnimal = animalNoises[i];
+    // let allAnimalInfor = objAnimal[animalName];
+    let allAnimalInfor = animalNoises[i][animalName];
+    if (allAnimalInfor){
+      animal = animalName[0].toUpperCase() + animalName.slice(1) + "s";
+      sound = allAnimalInfor[countryName];
+    }
+  }     
+  return `${animal} in ${countryName} say ${sound}`;
+}
