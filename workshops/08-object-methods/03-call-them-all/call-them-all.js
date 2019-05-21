@@ -15,11 +15,11 @@ let addsNums = {
 
 function callThemAll(addsNums, value) {
     let funcResult = [];
-    let keysOfObj = Object.keys(addsNums);
-    for (let i = 0; i < keysOfObj.length; i++) {
-        let actualkey = keysOfObj[i];
-        if(typeof addsNums[actualkey] === 'function'){
-            let valueOf = addsNums[actualkey](value);
+    let valuesOfObj = Object.values(addsNums); //array of values= function in this case
+    for (let i = 0; i < valuesOfObj.length; i++) {
+        let actualFunc = valuesOfObj[i];
+        if(typeof actualFunc === 'function'){
+            let valueOf = actualFunc(value);
             funcResult.push(valueOf);
         };       
     }
