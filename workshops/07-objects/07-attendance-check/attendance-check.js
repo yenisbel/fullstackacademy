@@ -38,3 +38,26 @@ let classRoom = [
 ];
 
 // YOUR CODE BELOW
+
+function attendanceCheck(dayWeek) {
+        let nameStudentOnClass = [];
+
+        for (let i = 0; i < classRoom.length; i++) {
+                let objStudent = classRoom[i];
+                let studentName = Object.keys(objStudent)[0];
+                let attenDaysObj = objStudent[studentName];
+
+                for (let j = 0; j < attenDaysObj.length; j++) {
+                        let currentDayObj = attenDaysObj[j];
+                        let dayName = Object.keys(currentDayObj)[0];
+                        if (dayName === dayWeek && currentDayObj[dayName]){
+
+                                // ...the student was present on that day!
+                                nameStudentOnClass.push(studentName);
+                        }
+                        
+                }
+                
+        }
+        return nameStudentOnClass;
+}

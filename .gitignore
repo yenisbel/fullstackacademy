@@ -1,3 +1,7 @@
+workshops/07-objects/node_modules/*
+workshops/07-objects/package-lock.json
+workshops/08-object-methods/node_modules/*
+workshops/08-object-methods/package-lock.json
 workshops/06-arrays-ii/node_modules/*
 workshops/06-arrays-ii/package-lock.json
 workshops/05-arrays-i/node_modules/*
