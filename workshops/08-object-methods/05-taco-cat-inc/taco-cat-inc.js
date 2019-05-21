@@ -26,7 +26,7 @@ let tacoCatInc = {
     let keysTacoInc = Object.keys(tacoCatInc);
     
     for(let i = 0; i < keysTacoInc.length; i++) {
-      if (typeof this[keysTacoInc[i]] !== 'function'){
+      if (typeof this[keysTacoInc[i]] === 'object'){
         let itemsObj = this[keysTacoInc[i]]; 
         for(let item in itemsObj){
           let costObj = itemsObj[item];
