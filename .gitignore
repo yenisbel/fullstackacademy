@@ -1,3 +1,7 @@
+workshops/09-pbv-pbr/node_modules/*
+workshops/09-pbv-pbr/package-lock.json
+workshops/10-higher-order-functions-i/node_modules/*
+workshops/10-higher-order-functions-i/package-lock.json
 workshops/07-objects/node_modules/*
 workshops/07-objects/package-lock.json
 workshops/08-object-methods/node_modules/*
