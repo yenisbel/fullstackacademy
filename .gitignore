@@ -1,3 +1,5 @@
+workshops/12-recursion-i/node_modules/*
+workshops/12-recursion-i/package-lock.json
 workshops/11-higher-order-functions-ii/node_modules/*
 workshops/11-higher-order-functions-ii/package-lock.json
 workshops/09-pbv-pbr/node_modules/*
