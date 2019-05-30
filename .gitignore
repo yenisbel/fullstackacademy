@@ -1,3 +1,6 @@
+workshops/13-recursion-ii/.gitignore
+workshops/13-recursion-ii/node_modules/*
+workshops/13-recursion-ii/package-lock.json
 workshops/12-recursion-i/node_modules/*
 workshops/12-recursion-i/package-lock.json
 workshops/11-higher-order-functions-ii/node_modules/*
